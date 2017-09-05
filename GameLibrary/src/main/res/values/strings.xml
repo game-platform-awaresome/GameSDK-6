@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Tobin游戏平台</string>
+
+    <string name="facebook_app_id">281443588928564</string>
+    <string name="fb_login_protocol_scheme">fb281443588928564</string>
+
+
+
+    <string name="tobin_input_account">输入账号</string>
+    <string name="tobin_input_password">输入密码</string>
+    <string name="tobin_free_play">免费试玩</string>
+    <string name="tobin_register_account">注册账号</string>
+    <string name="tobin_text_or">or</string>
+    <string name="tobin_begin_play">开始</string>
+
+    <string name="tobin_text_other_account_login">其它账号登录</string>
+    <string name="tobin_text_upgrade_account">更新账号</string>
+    <string name="tobin_account_change_password">更新账号</string>
+    <string name="tobin_find_pwd">找回密码</string>
+
+</resources>

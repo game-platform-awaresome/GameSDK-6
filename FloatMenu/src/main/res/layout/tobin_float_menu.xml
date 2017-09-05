@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.game.tobin.floatmenu.FloatMenuClipBgView
+	android:id="@+id/menu_main_view"
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="wrap_content"
+	android:layout_height="48dp"
+	android:orientation="horizontal">
+	<com.game.tobin.floatmenu.FloatMenuHScrollView
+	    android:id="@+id/menu_scroll"
+	    android:layout_width="wrap_content"
+	    android:layout_height="48dp"
+	    android:scrollbars="none"
+		android:background="@drawable/tobin_float_menu_bg">
+	    <LinearLayout android:layout_width="wrap_content"
+		    android:layout_height="48dp"
+		    android:layout_weight="1"
+		    android:gravity="center_vertical"
+		    android:orientation="horizontal"
+		    android:paddingBottom="2dp"
+		    android:clipToPadding="false"
+		    android:paddingRight="5dp"
+		    android:paddingTop="2dp" >
+		    <com.game.tobin.floatmenu.FloatMenuTextView
+		        android:id="@+id/tvAccount"
+		        style="@style/PlayFloatMenuTitle"
+		        android:layout_marginLeft="3dp"
+		        android:maxLines="1"
+		        android:drawableTop="@drawable/tobin_float_account_icon"
+		        android:text="@string/tobin_string_account" />
+		    <com.game.tobin.floatmenu.FloatMenuTextView
+		        android:id="@+id/tvHomePage"
+		        style="@style/PlayFloatMenuTitle"
+		        android:layout_marginLeft="3dp"
+		        android:maxLines="1"
+		        android:drawableTop="@drawable/tobin_float_website_icon"
+		        android:text="@string/tobin_string_home" />
+		    <com.game.tobin.floatmenu.FloatMenuTextView
+		        android:id="@+id/tvFB"
+		        style="@style/PlayFloatMenuTitle"
+		        android:layout_marginLeft="3dp"
+		        android:maxLines="1"
+		        android:drawableTop="@drawable/tobin_float_fb_icon"
+		        android:text="@string/tobin_string_facebook" />
+		    <com.game.tobin.floatmenu.FloatMenuTextView
+		        android:id="@+id/tvService"
+		        style="@style/PlayFloatMenuTitle"
+		        android:layout_marginLeft="3dp"
+		        android:maxLines="1"
+		        android:drawableTop="@drawable/tobin_float_custom_service_icon"
+		        android:text="@string/tobin_string_custom_service" />
+		</LinearLayout>
+	</com.game.tobin.floatmenu.FloatMenuHScrollView>
+</com.game.tobin.floatmenu.FloatMenuClipBgView>

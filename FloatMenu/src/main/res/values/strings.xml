@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FloatMenu</string>
+
+    <string name="tobin_string_account">账号</string>
+    <string name="tobin_string_facebook">FB</string>
+    <string name="tobin_string_home">主页</string>
+    <string name="tobin_string_custom_service">客服</string>
+</resources>
